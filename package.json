@@ -1,0 +1,17 @@
+{
+  "name": "restaurant-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E automation suite for Group Pre-Order (Direction 1)",
+  "scripts": {
+    "test": "playwright test",
+    "test:level1": "playwright test tests/level-1.spec.ts",
+    "test:level2": "playwright test tests/level-2.spec.ts",
+    "test:level3": "playwright test tests/level-3.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.19.43",
+    "typescript": "^5.0.0"
+  }
+}
